@@ -28,7 +28,7 @@ for (i = 0; temp && i < idx; i++)
 {
 if (i == idx - 1)
 {
-ew->next = temp->next;
+new->next = temp->next;
 temp->next = new;
 return (new);
 }
